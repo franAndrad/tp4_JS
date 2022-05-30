@@ -8,4 +8,4 @@ function perimetro(a,b){
 
 let lado1=parseInt(prompt("Ingrese el primer lado del rectangulo"));
 let lado2=parseInt(prompt("Ingrese el primer lado del rectangulo"));
-document.write(perimetro(lado1,lado2))
+document.write(`el perimetro es: ${perimetro(lado1,lado2)}`);
